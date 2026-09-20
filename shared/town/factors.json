@@ -1,0 +1,272 @@
+[
+  {
+    "material": "cotton",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "cotton",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "cotton",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "linen",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "linen",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "linen",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "wool",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "wool",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "wool",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "polyester",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "polyester",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "polyester",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "recycled-polyester",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "recycled-polyester",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "recycled-polyester",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "tencel",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "tencel",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "tencel",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "leather",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "leather",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "leather",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "rubber",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "rubber",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "rubber",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "acrylic",
+    "metric": "co2e",
+    "value": null,
+    "unit": "kgCO2e/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "acrylic",
+    "metric": "water",
+    "value": null,
+    "unit": "L/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  },
+  {
+    "material": "acrylic",
+    "metric": "waste",
+    "value": null,
+    "unit": "kg/kg",
+    "boundary": "cradle-to-gate",
+    "sourceUrl": null,
+    "year": null,
+    "status": "unsourced"
+  }
+]

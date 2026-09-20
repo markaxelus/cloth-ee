@@ -1,0 +1,169 @@
+[
+  {
+    "id": "influencer",
+    "label": "Influencer",
+    "workplaceKind": null,
+    "schedule": [
+      { "from": 0.00, "to": 0.34, "activity": "home" },
+      { "from": 0.34, "to": 0.52, "activity": "shoot", "venue": "photo" },
+      { "from": 0.52, "to": 0.64, "activity": "coffee", "venue": "coffee" },
+      { "from": 0.64, "to": 0.84, "activity": "browse", "venue": "browse" },
+      { "from": 0.84, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["statement", "loud", "playful"], "avoid": ["rugged"], "strength": 0.9 },
+    "walkSpeed": 0.95,
+    "punctuality": 0.3,
+    "interactions": { "photo": 0.45, "chat": 0.25, "browse": 0.2, "sit": 0.1 },
+    "socialReach": 0.9,
+    "followable": true,
+    "spendBias": 1.25,
+    "blurb": "Shoots outfits at the fountain and on the High Street. What they wear spreads."
+  },
+  {
+    "id": "office",
+    "label": "Office Worker",
+    "workplaceKind": "office-1",
+    "schedule": [
+      { "from": 0.00, "to": 0.26, "activity": "home" },
+      { "from": 0.26, "to": 0.30, "activity": "commute", "venue": "wait" },
+      { "from": 0.30, "to": 0.48, "activity": "work", "venue": "work" },
+      { "from": 0.48, "to": 0.56, "activity": "lunch", "venue": "coffee" },
+      { "from": 0.56, "to": 0.72, "activity": "work", "venue": "work" },
+      { "from": 0.72, "to": 0.76, "activity": "commute", "venue": "wait" },
+      { "from": 0.76, "to": 0.86, "activity": "plaza", "venue": "gather" },
+      { "from": 0.86, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["tailored", "clean", "classic"], "avoid": ["loud"], "strength": 0.8 },
+    "walkSpeed": 1.05,
+    "punctuality": 0.9,
+    "interactions": { "chat": 0.3, "coffee": 0.25, "sit": 0.15, "wait": 0.15, "browse": 0.1, "gather": 0.05 },
+    "socialReach": 0.35,
+    "followable": false,
+    "spendBias": 1.0,
+    "blurb": "Bus to Ridgeway Offices, lunch at The Kettle, out at five. Dresses to a code."
+  },
+  {
+    "id": "student",
+    "label": "Student",
+    "workplaceKind": "campus-1",
+    "schedule": [
+      { "from": 0.00, "to": 0.36, "activity": "home" },
+      { "from": 0.36, "to": 0.68, "activity": "study", "venue": "work" },
+      { "from": 0.68, "to": 0.78, "activity": "coffee", "venue": "coffee" },
+      { "from": 0.78, "to": 0.90, "activity": "park", "venue": "sit" },
+      { "from": 0.90, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["relaxed", "playful", "sporty"], "avoid": ["tailored"], "strength": 0.4 },
+    "walkSpeed": 1.0,
+    "punctuality": 0.45,
+    "interactions": { "read": 0.3, "sit": 0.25, "chat": 0.2, "coffee": 0.15, "browse": 0.1 },
+    "socialReach": 0.5,
+    "followable": false,
+    "spendBias": 0.7,
+    "blurb": "A long block in the Town Library, then the cafe and the park. Broke, and dressed like it."
+  },
+  {
+    "id": "barista",
+    "label": "Barista",
+    "workplaceKind": "cafe-1",
+    "schedule": [
+      { "from": 0.00, "to": 0.16, "activity": "home" },
+      { "from": 0.16, "to": 0.55, "activity": "shift", "venue": "work" },
+      { "from": 0.55, "to": 0.66, "activity": "rest", "venue": "sit" },
+      { "from": 0.66, "to": 0.80, "activity": "browse", "venue": "browse" },
+      { "from": 0.80, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["clean", "minimal"], "avoid": ["statement"], "strength": 0.75 },
+    "walkSpeed": 1.0,
+    "punctuality": 0.85,
+    "interactions": { "coffee": 0.35, "chat": 0.3, "browse": 0.15, "sit": 0.1, "wait": 0.1 },
+    "socialReach": 0.45,
+    "followable": false,
+    "spendBias": 0.85,
+    "blurb": "Opens The Kettle before anyone else is up, and serves the whole town before lunch."
+  },
+  {
+    "id": "shopStaff",
+    "label": "Shop Staff",
+    "workplaceKind": null,
+    "schedule": [
+      { "from": 0.00, "to": 0.28, "activity": "home" },
+      { "from": 0.28, "to": 0.32, "activity": "commute", "venue": "wait" },
+      { "from": 0.32, "to": 0.78, "activity": "shift", "venue": "work" },
+      { "from": 0.78, "to": 0.88, "activity": "coffee", "venue": "coffee" },
+      { "from": 0.88, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["clean", "classic"], "avoid": ["rugged"], "strength": 0.7 },
+    "walkSpeed": 1.0,
+    "punctuality": 0.8,
+    "interactions": { "browse": 0.35, "chat": 0.3, "coffee": 0.15, "sit": 0.1, "gather": 0.1 },
+    "socialReach": 0.4,
+    "followable": false,
+    "spendBias": 0.95,
+    "blurb": "Works one High Street shop all day and wears the house they sell."
+  },
+  {
+    "id": "courier",
+    "label": "Courier",
+    "workplaceKind": null,
+    "schedule": [
+      { "from": 0.00, "to": 0.24, "activity": "home" },
+      { "from": 0.24, "to": 0.28, "activity": "commute", "venue": "wait" },
+      { "from": 0.28, "to": 0.52, "activity": "deliver", "venue": "browse" },
+      { "from": 0.52, "to": 0.58, "activity": "coffee", "venue": "coffee" },
+      { "from": 0.58, "to": 0.80, "activity": "deliver", "venue": "browse" },
+      { "from": 0.80, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["sporty", "technical", "durable"], "avoid": ["heritage"], "strength": 0.85 },
+    "walkSpeed": 1.35,
+    "punctuality": 0.6,
+    "interactions": { "wait": 0.3, "coffee": 0.25, "browse": 0.2, "chat": 0.15, "sit": 0.1 },
+    "socialReach": 0.3,
+    "followable": false,
+    "spendBias": 0.9,
+    "blurb": "Loops the High Street shop doors all day. Never stops anywhere for long."
+  },
+  {
+    "id": "retiree",
+    "label": "Retiree",
+    "workplaceKind": null,
+    "schedule": [
+      { "from": 0.00, "to": 0.18, "activity": "home" },
+      { "from": 0.18, "to": 0.34, "activity": "bench", "venue": "sit" },
+      { "from": 0.34, "to": 0.46, "activity": "newsstand", "venue": "read" },
+      { "from": 0.46, "to": 0.58, "activity": "coffee", "venue": "coffee" },
+      { "from": 0.58, "to": 0.74, "activity": "plaza", "venue": "gather" },
+      { "from": 0.74, "to": 0.86, "activity": "bench", "venue": "sit" },
+      { "from": 0.86, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["warm", "heritage", "classic"], "avoid": ["loud"], "strength": 0.6 },
+    "walkSpeed": 0.8,
+    "punctuality": 0.5,
+    "interactions": { "sit": 0.3, "read": 0.25, "gather": 0.2, "chat": 0.15, "coffee": 0.1 },
+    "socialReach": 0.25,
+    "followable": false,
+    "spendBias": 0.8,
+    "blurb": "On a park bench at dawn and back on one before dusk. Holds the plaza in between."
+  },
+  {
+    "id": "creative",
+    "label": "Creative",
+    "workplaceKind": "studio-1",
+    "schedule": [
+      { "from": 0.00, "to": 0.32, "activity": "home" },
+      { "from": 0.32, "to": 0.40, "activity": "coffee", "venue": "coffee" },
+      { "from": 0.40, "to": 0.64, "activity": "work", "venue": "work" },
+      { "from": 0.64, "to": 0.72, "activity": "shoot", "venue": "photo" },
+      { "from": 0.72, "to": 0.86, "activity": "work", "venue": "work" },
+      { "from": 0.86, "to": 1.00, "activity": "home" }
+    ],
+    "dress": { "prefer": ["statement", "natural", "minimal"], "avoid": ["sporty"], "strength": 0.5 },
+    "walkSpeed": 0.95,
+    "punctuality": 0.35,
+    "interactions": { "chat": 0.3, "photo": 0.25, "coffee": 0.2, "browse": 0.15, "sit": 0.1 },
+    "socialReach": 0.55,
+    "followable": false,
+    "spendBias": 1.05,
+    "blurb": "Starts late at Maker Studio, breaks for the fountain, works past everyone else."
+  }
+]

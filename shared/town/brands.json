@@ -1,0 +1,200 @@
+[
+  {
+    "id": "verdant",
+    "label": "Verdant Row",
+    "kind": "fictional",
+    "realBrandRef": null,
+    "domain": null,
+    "aliases": [
+      "Verdant",
+      "VERDANT ROW",
+      "Verdant Row"
+    ],
+    "patchText": "VERDANT ROW",
+    "pattern": "leafline",
+    "palette": {
+      "base": "#cfe3d2",
+      "accent": "#5f8a6a",
+      "ink": "#2f4a38"
+    },
+    "priceTier": "mid",
+    "materialBias": [
+      "linen",
+      "cotton"
+    ],
+    "blurb": "Fictional mid-market label built around linen and a garment take-back scheme, used to exercise the investigation flow.",
+    "investigation": {
+      "status": "pending",
+      "claimRisk": null,
+      "band": "unknown",
+      "confidence": null,
+      "investigatedAt": null,
+      "sources": []
+    }
+  },
+  {
+    "id": "halcyon",
+    "label": "Halcyon Field",
+    "kind": "fictional",
+    "realBrandRef": null,
+    "domain": null,
+    "aliases": [
+      "Halcyon",
+      "HALCYON FIELD",
+      "Halcyon Field"
+    ],
+    "patchText": "HALCYON FIELD",
+    "pattern": "herringbone",
+    "palette": {
+      "base": "#e8dcc4",
+      "accent": "#a8804f",
+      "ink": "#4a3a26"
+    },
+    "priceTier": "premium",
+    "materialBias": [
+      "wool",
+      "acrylic"
+    ],
+    "blurb": "Fictional premium wool house with heritage styling and no published disclosure.",
+    "investigation": {
+      "status": "pending",
+      "claimRisk": null,
+      "band": "unknown",
+      "confidence": null,
+      "investigatedAt": null,
+      "sources": []
+    }
+  },
+  {
+    "id": "pellmell",
+    "label": "Pell Mell",
+    "kind": "fictional",
+    "realBrandRef": null,
+    "domain": null,
+    "aliases": [
+      "Pellmell",
+      "PELL MELL",
+      "Pell Mell"
+    ],
+    "patchText": "PELL MELL",
+    "pattern": "confetti",
+    "palette": {
+      "base": "#ff9d8a",
+      "accent": "#ffd84d",
+      "ink": "#7a2f3a"
+    },
+    "priceTier": "budget",
+    "materialBias": [
+      "polyester",
+      "acrylic"
+    ],
+    "blurb": "Fictional high-volume budget label. Loud prints, short lifespans, nothing disclosed.",
+    "investigation": {
+      "status": "pending",
+      "claimRisk": null,
+      "band": "unknown",
+      "confidence": null,
+      "investigatedAt": null,
+      "sources": []
+    }
+  },
+  {
+    "id": "northbeck",
+    "label": "Northbeck Supply",
+    "kind": "fictional",
+    "realBrandRef": null,
+    "domain": null,
+    "aliases": [
+      "Northbeck",
+      "NORTHBECK",
+      "Northbeck Supply"
+    ],
+    "patchText": "NORTHBECK",
+    "pattern": "twill",
+    "palette": {
+      "base": "#3f5d85",
+      "accent": "#c8a06a",
+      "ink": "#1e2c42"
+    },
+    "priceTier": "mid",
+    "materialBias": [
+      "cotton",
+      "leather"
+    ],
+    "blurb": "Fictional workwear label trading on durability claims that have never been checked.",
+    "investigation": {
+      "status": "pending",
+      "claimRisk": null,
+      "band": "unknown",
+      "confidence": null,
+      "investigatedAt": null,
+      "sources": []
+    }
+  },
+  {
+    "id": "solane",
+    "label": "Solane",
+    "kind": "fictional",
+    "realBrandRef": null,
+    "domain": null,
+    "aliases": [
+      "Solane",
+      "SOLANE",
+      "Solane Studio"
+    ],
+    "patchText": "SOLANE",
+    "pattern": "wave",
+    "palette": {
+      "base": "#6ec4d9",
+      "accent": "#2f7f96",
+      "ink": "#14414f"
+    },
+    "priceTier": "premium",
+    "materialBias": [
+      "tencel",
+      "recycled-polyester"
+    ],
+    "blurb": "Fictional premium label that publishes a product passport and runs a take-back programme.",
+    "investigation": {
+      "status": "pending",
+      "claimRisk": null,
+      "band": "unknown",
+      "confidence": null,
+      "investigatedAt": null,
+      "sources": []
+    }
+  },
+  {
+    "id": "crux",
+    "label": "Crux Athletic",
+    "kind": "fictional",
+    "realBrandRef": null,
+    "domain": null,
+    "aliases": [
+      "Crux",
+      "CRUX ATHLETIC",
+      "Crux Athletic"
+    ],
+    "patchText": "CRUX ATHLETIC",
+    "pattern": "chevron",
+    "palette": {
+      "base": "#2b2f3a",
+      "accent": "#e04a3f",
+      "ink": "#14161c"
+    },
+    "priceTier": "mid",
+    "materialBias": [
+      "polyester",
+      "rubber"
+    ],
+    "blurb": "Fictional performance label leaning on recycled-content wording with no evidence attached.",
+    "investigation": {
+      "status": "pending",
+      "claimRisk": null,
+      "band": "unknown",
+      "confidence": null,
+      "investigatedAt": null,
+      "sources": []
+    }
+  }
+]

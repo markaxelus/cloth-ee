@@ -1,0 +1,2226 @@
+[
+  {
+    "id": "verdant-linen-shirt",
+    "brandId": "verdant",
+    "name": "Linen field shirt",
+    "slot": "top",
+    "silhouette": "buttonShirt",
+    "massKg": 0.22,
+    "price": 78,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "linen",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#cfe3d2",
+      "accent": "#5f8a6a"
+    },
+    "colorName": "sage",
+    "pattern": "leafline",
+    "patternWords": "fine vertical leaf-stem lines",
+    "patch": {
+      "text": "VERDANT ROW",
+      "placement": "chest",
+      "size": "small"
+    },
+    "surfaceCue": "matte, crisp drape",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 90
+    },
+    "styleTags": [
+      "relaxed",
+      "summer",
+      "natural"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "linen",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.22
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "verdant-cotton-trousers",
+    "brandId": "verdant",
+    "name": "Cotton wide trousers",
+    "slot": "bottom",
+    "silhouette": "trousers",
+    "massKg": 0.45,
+    "price": 92,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "cotton",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#f0e7d6",
+      "accent": "#b8a98c"
+    },
+    "colorName": "cream",
+    "pattern": "leafline",
+    "patternWords": "fine vertical leaf-stem lines",
+    "patch": {
+      "text": "VERDANT ROW",
+      "placement": "hem",
+      "size": "small"
+    },
+    "surfaceCue": "soft matte cotton, loose fall",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 150
+    },
+    "styleTags": [
+      "relaxed",
+      "natural",
+      "classic"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "cotton",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.45
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "verdant-bucket-hat",
+    "brandId": "verdant",
+    "name": "Washed bucket hat",
+    "slot": "hat",
+    "silhouette": "bucket",
+    "massKg": 0.11,
+    "price": 44,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "cotton",
+        "percent": 60
+      },
+      {
+        "name": "linen",
+        "percent": 40
+      }
+    ],
+    "colors": {
+      "base": "#7f8f5e",
+      "accent": "#4c5a36"
+    },
+    "colorName": "olive",
+    "pattern": "leafline",
+    "patternWords": "fine vertical leaf-stem lines",
+    "patch": {
+      "text": "VERDANT ROW",
+      "placement": "brim",
+      "size": "small"
+    },
+    "surfaceCue": "washed canvas, slightly stiff",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 200
+    },
+    "styleTags": [
+      "relaxed",
+      "summer",
+      "natural"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "cotton",
+              "percent": 60
+            },
+            {
+              "name": "linen",
+              "percent": 40
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.11
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "verdant-gauze-scarf",
+    "brandId": "verdant",
+    "name": "Cotton gauze scarf",
+    "slot": "scarf",
+    "silhouette": "scarf",
+    "massKg": 0.14,
+    "price": 38,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "cotton",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#e7dcc6",
+      "accent": "#a89878"
+    },
+    "colorName": "oat",
+    "pattern": "leafline",
+    "patternWords": "fine vertical leaf-stem lines",
+    "patch": {
+      "text": "VERDANT ROW",
+      "placement": "tag",
+      "size": "small"
+    },
+    "surfaceCue": "open gauze weave, airy",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 150
+    },
+    "styleTags": [
+      "natural",
+      "minimal",
+      "summer"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "cotton",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.14
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "halcyon-merino-knit",
+    "brandId": "halcyon",
+    "name": "Merino crew knit",
+    "slot": "top",
+    "silhouette": "knit",
+    "massKg": 0.38,
+    "price": 168,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "wool",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#6e5170",
+      "accent": "#3f2d44"
+    },
+    "colorName": "plum",
+    "pattern": "herringbone",
+    "patternWords": "woven zigzag herringbone weave",
+    "patch": {
+      "text": "HALCYON FIELD",
+      "placement": "chest",
+      "size": "medium"
+    },
+    "surfaceCue": "brushed knit with visible loft",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 120
+    },
+    "styleTags": [
+      "warm",
+      "classic",
+      "heritage"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "wool",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.38
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "halcyon-wool-overcoat",
+    "brandId": "halcyon",
+    "name": "Wool herringbone overcoat",
+    "slot": "outer",
+    "silhouette": "coat",
+    "massKg": 1.15,
+    "price": 285,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "wool",
+        "percent": 80
+      },
+      {
+        "name": "polyester",
+        "percent": 20
+      }
+    ],
+    "colors": {
+      "base": "#c89a5e",
+      "accent": "#7a5a2e"
+    },
+    "colorName": "camel",
+    "pattern": "herringbone",
+    "patternWords": "woven zigzag herringbone weave",
+    "patch": {
+      "text": "HALCYON FIELD",
+      "placement": "chest",
+      "size": "small"
+    },
+    "surfaceCue": "dense felted wool, structured",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 300
+    },
+    "styleTags": [
+      "tailored",
+      "warm",
+      "heritage"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "wool",
+              "percent": 80
+            },
+            {
+              "name": "polyester",
+              "percent": 20
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 1.15
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "halcyon-lambswool-scarf",
+    "brandId": "halcyon",
+    "name": "Lambswool scarf",
+    "slot": "scarf",
+    "silhouette": "scarf",
+    "massKg": 0.16,
+    "price": 124,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "wool",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#8e3450",
+      "accent": "#541e30"
+    },
+    "colorName": "berry",
+    "pattern": "herringbone",
+    "patternWords": "woven zigzag herringbone weave",
+    "patch": {
+      "text": "HALCYON FIELD",
+      "placement": "tag",
+      "size": "small"
+    },
+    "surfaceCue": "fuzzy dense wool, warm hand",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 180
+    },
+    "styleTags": [
+      "warm",
+      "heritage",
+      "classic"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "wool",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.16
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "halcyon-ribbed-beanie",
+    "brandId": "halcyon",
+    "name": "Ribbed wool beanie",
+    "slot": "hat",
+    "silhouette": "beanie",
+    "massKg": 0.09,
+    "price": 88,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "wool",
+        "percent": 70
+      },
+      {
+        "name": "acrylic",
+        "percent": 30
+      }
+    ],
+    "colors": {
+      "base": "#d9a327",
+      "accent": "#8e6613"
+    },
+    "colorName": "mustard",
+    "pattern": "herringbone",
+    "patternWords": "woven zigzag herringbone weave",
+    "patch": {
+      "text": "HALCYON FIELD",
+      "placement": "brim",
+      "size": "medium"
+    },
+    "surfaceCue": "chunky vertical rib",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 200
+    },
+    "styleTags": [
+      "warm",
+      "heritage",
+      "relaxed"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "wool",
+              "percent": 70
+            },
+            {
+              "name": "acrylic",
+              "percent": 30
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.09
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "pellmell-confetti-tee",
+    "brandId": "pellmell",
+    "name": "Confetti print tee",
+    "slot": "top",
+    "silhouette": "tee",
+    "massKg": 0.16,
+    "price": 18,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "polyester",
+        "percent": 60
+      },
+      {
+        "name": "cotton",
+        "percent": 40
+      }
+    ],
+    "colors": {
+      "base": "#ff9d8a",
+      "accent": "#ffd84d"
+    },
+    "colorName": "coral",
+    "pattern": "confetti",
+    "patternWords": "scattered confetti dots and flecks",
+    "patch": {
+      "text": "PELL MELL",
+      "placement": "chest",
+      "size": "large"
+    },
+    "surfaceCue": "flat printed jersey, slight sheen",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 35
+    },
+    "styleTags": [
+      "loud",
+      "playful",
+      "statement"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "polyester",
+              "percent": 60
+            },
+            {
+              "name": "cotton",
+              "percent": 40
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.16
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "pellmell-butter-skirt",
+    "brandId": "pellmell",
+    "name": "Pleated mini skirt",
+    "slot": "bottom",
+    "silhouette": "skirt",
+    "massKg": 0.28,
+    "price": 26,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "polyester",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#f5cf5b",
+      "accent": "#c79a1c"
+    },
+    "colorName": "butter",
+    "pattern": "confetti",
+    "patternWords": "scattered confetti dots and flecks",
+    "patch": {
+      "text": "PELL MELL",
+      "placement": "hem",
+      "size": "small"
+    },
+    "surfaceCue": "shiny synthetic pleats",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 60
+    },
+    "styleTags": [
+      "loud",
+      "playful",
+      "statement"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "polyester",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.28
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "pellmell-canvas-sneakers",
+    "brandId": "pellmell",
+    "name": "Canvas low sneakers",
+    "slot": "shoes",
+    "silhouette": "sneakers",
+    "massKg": 0.68,
+    "price": 34,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "cotton",
+        "percent": 55
+      },
+      {
+        "name": "rubber",
+        "percent": 45
+      }
+    ],
+    "colors": {
+      "base": "#f2f0ea",
+      "accent": "#cfcbc0"
+    },
+    "colorName": "chalk",
+    "pattern": "confetti",
+    "patternWords": "scattered confetti dots and flecks",
+    "patch": {
+      "text": "PELL MELL",
+      "placement": "sleeve",
+      "size": "small"
+    },
+    "surfaceCue": "dry canvas upper on glossy rubber",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 120
+    },
+    "styleTags": [
+      "relaxed",
+      "playful",
+      "sporty"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "cotton",
+              "percent": 55
+            },
+            {
+              "name": "rubber",
+              "percent": 45
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.68
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "pellmell-rose-sunglasses",
+    "brandId": "pellmell",
+    "name": "Round plastic sunglasses",
+    "slot": "glasses",
+    "silhouette": "glasses",
+    "massKg": 0.03,
+    "price": 14,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "acrylic",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#e8749b",
+      "accent": "#a83e66"
+    },
+    "colorName": "rose",
+    "pattern": "confetti",
+    "patternWords": "scattered confetti dots and flecks",
+    "patch": {
+      "text": "PELL MELL",
+      "placement": "temple",
+      "size": "small"
+    },
+    "surfaceCue": "glossy moulded plastic",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 90
+    },
+    "styleTags": [
+      "loud",
+      "playful",
+      "statement"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "acrylic",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.03
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "northbeck-selvedge-jeans",
+    "brandId": "northbeck",
+    "name": "Selvedge straight jeans",
+    "slot": "bottom",
+    "silhouette": "jeans",
+    "massKg": 0.62,
+    "price": 118,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "cotton",
+        "percent": 98
+      },
+      {
+        "name": "polyester",
+        "percent": 2
+      }
+    ],
+    "colors": {
+      "base": "#3f5d85",
+      "accent": "#25384f"
+    },
+    "colorName": "indigo",
+    "pattern": "twill",
+    "patternWords": "diagonal twill ribbing",
+    "patch": {
+      "text": "NORTHBECK",
+      "placement": "hem",
+      "size": "medium"
+    },
+    "surfaceCue": "rigid dry denim, diagonal grain",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 260
+    },
+    "styleTags": [
+      "rugged",
+      "durable",
+      "classic"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "cotton",
+              "percent": 98
+            },
+            {
+              "name": "polyester",
+              "percent": 2
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.62
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "northbeck-chore-jacket",
+    "brandId": "northbeck",
+    "name": "Twill chore jacket",
+    "slot": "outer",
+    "silhouette": "jacket",
+    "massKg": 0.62,
+    "price": 132,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "cotton",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#b4563a",
+      "accent": "#6f2f1d"
+    },
+    "colorName": "rust",
+    "pattern": "twill",
+    "patternWords": "diagonal twill ribbing",
+    "patch": {
+      "text": "NORTHBECK",
+      "placement": "chest",
+      "size": "medium"
+    },
+    "surfaceCue": "dry twill, boxy and stiff",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 240
+    },
+    "styleTags": [
+      "rugged",
+      "durable",
+      "heritage"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "cotton",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.62
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "northbeck-leather-boots",
+    "brandId": "northbeck",
+    "name": "Leather work boots",
+    "slot": "shoes",
+    "silhouette": "boots",
+    "massKg": 1.15,
+    "price": 186,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "leather",
+        "percent": 70
+      },
+      {
+        "name": "rubber",
+        "percent": 30
+      }
+    ],
+    "colors": {
+      "base": "#7a4a2e",
+      "accent": "#43281a"
+    },
+    "colorName": "chestnut",
+    "pattern": "twill",
+    "patternWords": "diagonal twill ribbing",
+    "patch": {
+      "text": "NORTHBECK",
+      "placement": "sleeve",
+      "size": "small"
+    },
+    "surfaceCue": "smooth waxed leather, lug sole",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 420
+    },
+    "styleTags": [
+      "rugged",
+      "durable",
+      "heritage"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "leather",
+              "percent": 70
+            },
+            {
+              "name": "rubber",
+              "percent": 30
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 1.15
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "northbeck-twill-cap",
+    "brandId": "northbeck",
+    "name": "Twill six-panel cap",
+    "slot": "hat",
+    "silhouette": "cap",
+    "massKg": 0.08,
+    "price": 42,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "cotton",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#24344d",
+      "accent": "#131d2c"
+    },
+    "colorName": "navy",
+    "pattern": "twill",
+    "patternWords": "diagonal twill ribbing",
+    "patch": {
+      "text": "NORTHBECK",
+      "placement": "brim",
+      "size": "medium"
+    },
+    "surfaceCue": "dry twill with a stiff brim",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 200
+    },
+    "styleTags": [
+      "rugged",
+      "classic",
+      "sporty"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "cotton",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.08
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "solane-tencel-shirt",
+    "brandId": "solane",
+    "name": "Tencel camp shirt",
+    "slot": "top",
+    "silhouette": "buttonShirt",
+    "massKg": 0.2,
+    "price": 145,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "tencel",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#6ec4d9",
+      "accent": "#2f7f96"
+    },
+    "colorName": "aqua",
+    "pattern": "wave",
+    "patternWords": "rolling horizontal wave bands",
+    "patch": {
+      "text": "SOLANE",
+      "placement": "chest",
+      "size": "medium"
+    },
+    "surfaceCue": "cool fluid drape with a faint lustre",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 110
+    },
+    "styleTags": [
+      "minimal",
+      "coastal",
+      "clean"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "tencel",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.2
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "solane-rain-shell",
+    "brandId": "solane",
+    "name": "Packable rain shell",
+    "slot": "outer",
+    "silhouette": "jacket",
+    "massKg": 0.34,
+    "price": 240,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "recycled-polyester",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#2f7f96",
+      "accent": "#14414f"
+    },
+    "colorName": "teal",
+    "pattern": "wave",
+    "patternWords": "rolling horizontal wave bands",
+    "patch": {
+      "text": "SOLANE",
+      "placement": "chest",
+      "size": "medium"
+    },
+    "surfaceCue": "rustling technical shell, taped seams",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 220
+    },
+    "styleTags": [
+      "technical",
+      "coastal",
+      "minimal"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "recycled-polyester",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.34
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "solane-wave-scarf",
+    "brandId": "solane",
+    "name": "Wave-band scarf",
+    "slot": "scarf",
+    "silhouette": "scarf",
+    "massKg": 0.14,
+    "price": 96,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "tencel",
+        "percent": 60
+      },
+      {
+        "name": "recycled-polyester",
+        "percent": 40
+      }
+    ],
+    "colors": {
+      "base": "#2f5fa8",
+      "accent": "#16305c"
+    },
+    "colorName": "cobalt",
+    "pattern": "wave",
+    "patternWords": "rolling horizontal wave bands",
+    "patch": {
+      "text": "SOLANE",
+      "placement": "tag",
+      "size": "small"
+    },
+    "surfaceCue": "smooth fluid weave, soft sheen",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 160
+    },
+    "styleTags": [
+      "minimal",
+      "coastal",
+      "clean"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "tencel",
+              "percent": 60
+            },
+            {
+              "name": "recycled-polyester",
+              "percent": 40
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.14
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "solane-amber-glasses",
+    "brandId": "solane",
+    "name": "Amber frame glasses",
+    "slot": "glasses",
+    "silhouette": "glasses",
+    "massKg": 0.03,
+    "price": 128,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "acrylic",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#d59a3f",
+      "accent": "#8a5c18"
+    },
+    "colorName": "amber",
+    "pattern": "wave",
+    "patternWords": "rolling horizontal wave bands",
+    "patch": {
+      "text": "SOLANE",
+      "placement": "temple",
+      "size": "small"
+    },
+    "surfaceCue": "translucent polished frame",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 250
+    },
+    "styleTags": [
+      "minimal",
+      "clean",
+      "classic"
+    ],
+    "passport": {
+      "published": true,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "acrylic",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.03
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "disclosed",
+          "value": "brand take-back programme"
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "crux-chevron-tee",
+    "brandId": "crux",
+    "name": "Chevron training tee",
+    "slot": "top",
+    "silhouette": "tee",
+    "massKg": 0.16,
+    "price": 48,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "recycled-polyester",
+        "percent": 65
+      },
+      {
+        "name": "polyester",
+        "percent": 35
+      }
+    ],
+    "colors": {
+      "base": "#2b2f3a",
+      "accent": "#e04a3f"
+    },
+    "colorName": "slate",
+    "pattern": "chevron",
+    "patternWords": "bold angled chevron stripes",
+    "patch": {
+      "text": "CRUX ATHLETIC",
+      "placement": "chest",
+      "size": "large"
+    },
+    "surfaceCue": "smooth technical knit, matte sheen",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 70
+    },
+    "styleTags": [
+      "sporty",
+      "technical",
+      "statement"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "recycled-polyester",
+              "percent": 65
+            },
+            {
+              "name": "polyester",
+              "percent": 35
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.16
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "crux-track-shorts",
+    "brandId": "crux",
+    "name": "Track shorts",
+    "slot": "bottom",
+    "silhouette": "shorts",
+    "massKg": 0.24,
+    "price": 52,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "polyester",
+        "percent": 100
+      }
+    ],
+    "colors": {
+      "base": "#363b47",
+      "accent": "#e04a3f"
+    },
+    "colorName": "charcoal",
+    "pattern": "chevron",
+    "patternWords": "bold angled chevron stripes",
+    "patch": {
+      "text": "CRUX ATHLETIC",
+      "placement": "hem",
+      "size": "medium"
+    },
+    "surfaceCue": "light woven shell, slight rustle",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 90
+    },
+    "styleTags": [
+      "sporty",
+      "technical",
+      "relaxed"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "polyester",
+              "percent": 100
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.24
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "crux-runner-sneakers",
+    "brandId": "crux",
+    "name": "Road runner sneakers",
+    "slot": "shoes",
+    "silhouette": "sneakers",
+    "massKg": 0.72,
+    "price": 125,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "polyester",
+        "percent": 55
+      },
+      {
+        "name": "rubber",
+        "percent": 45
+      }
+    ],
+    "colors": {
+      "base": "#e04a3f",
+      "accent": "#8e2620"
+    },
+    "colorName": "scarlet",
+    "pattern": "chevron",
+    "patternWords": "bold angled chevron stripes",
+    "patch": {
+      "text": "CRUX ATHLETIC",
+      "placement": "sleeve",
+      "size": "medium"
+    },
+    "surfaceCue": "knit upper on a foam midsole",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 200
+    },
+    "styleTags": [
+      "sporty",
+      "technical",
+      "loud"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "polyester",
+              "percent": 55
+            },
+            {
+              "name": "rubber",
+              "percent": 45
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.72
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  },
+  {
+    "id": "crux-sport-glasses",
+    "brandId": "crux",
+    "name": "Wrap sport glasses",
+    "slot": "glasses",
+    "silhouette": "glasses",
+    "massKg": 0.03,
+    "price": 68,
+    "currency": "CAD",
+    "materials": [
+      {
+        "name": "acrylic",
+        "percent": 80
+      },
+      {
+        "name": "rubber",
+        "percent": 20
+      }
+    ],
+    "colors": {
+      "base": "#1b1d22",
+      "accent": "#e04a3f"
+    },
+    "colorName": "black",
+    "pattern": "chevron",
+    "patternWords": "bold angled chevron stripes",
+    "patch": {
+      "text": "CRUX ATHLETIC",
+      "placement": "temple",
+      "size": "small"
+    },
+    "surfaceCue": "matte wrap frame, mirrored lens",
+    "origin": {
+      "country": null,
+      "geo": null,
+      "status": "unknown"
+    },
+    "durability": {
+      "baseWears": 220
+    },
+    "styleTags": [
+      "sporty",
+      "technical",
+      "statement"
+    ],
+    "passport": {
+      "published": false,
+      "fields": {
+        "materials": {
+          "status": "disclosed",
+          "value": [
+            {
+              "name": "acrylic",
+              "percent": 80
+            },
+            {
+              "name": "rubber",
+              "percent": 20
+            }
+          ]
+        },
+        "mass": {
+          "status": "disclosed",
+          "value": 0.03
+        },
+        "origin": {
+          "status": "unknown",
+          "value": null
+        },
+        "factory": {
+          "status": "unknown",
+          "value": null
+        },
+        "wages": {
+          "status": "unknown",
+          "value": null
+        },
+        "carbon": {
+          "status": "unknown",
+          "value": null
+        },
+        "water": {
+          "status": "unknown",
+          "value": null
+        },
+        "waste": {
+          "status": "unknown",
+          "value": null
+        },
+        "endOfLife": {
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    "shopifyVariantId": null
+  }
+]

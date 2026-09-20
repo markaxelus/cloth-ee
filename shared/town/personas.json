@@ -1,0 +1,147 @@
+[
+  {
+    "id": "bargain",
+    "label": "Bargain Hunter",
+    "weights": {
+      "price": 1.6,
+      "style": 0.6,
+      "eco": 0.1
+    },
+    "budget": {
+      "floor": 20,
+      "ceiling": 70
+    },
+    "incomePerDay": 34,
+    "wearOutMultiplier": 0.8,
+    "shopInterest": 0.55,
+    "boredom": 0.15,
+    "disposal": {
+      "resell": 0.1,
+      "donate": 0.25,
+      "bin": 0.65
+    },
+    "styleTags": [
+      "playful",
+      "loud",
+      "relaxed",
+      "sporty"
+    ],
+    "blurb": "Buys on price. Keeps things until they fall apart, then bins them."
+  },
+  {
+    "id": "trend",
+    "label": "Trend Chaser",
+    "weights": {
+      "price": 0.7,
+      "style": 1.7,
+      "eco": 0.1
+    },
+    "budget": {
+      "floor": 30,
+      "ceiling": 120
+    },
+    "incomePerDay": 52,
+    "wearOutMultiplier": 0.6,
+    "shopInterest": 0.8,
+    "boredom": 0.55,
+    "disposal": {
+      "resell": 0.2,
+      "donate": 0.2,
+      "bin": 0.6
+    },
+    "styleTags": [
+      "loud",
+      "statement",
+      "playful",
+      "sporty"
+    ],
+    "blurb": "Chases the newest look. Bores of an outfit long before it wears out."
+  },
+  {
+    "id": "conscious",
+    "label": "Conscious Buyer",
+    "weights": {
+      "price": 0.8,
+      "style": 0.7,
+      "eco": 1.8
+    },
+    "budget": {
+      "floor": 40,
+      "ceiling": 190
+    },
+    "incomePerDay": 61,
+    "wearOutMultiplier": 1.4,
+    "shopInterest": 0.35,
+    "boredom": 0.05,
+    "disposal": {
+      "resell": 0.35,
+      "donate": 0.55,
+      "bin": 0.1
+    },
+    "styleTags": [
+      "natural",
+      "minimal",
+      "durable",
+      "classic"
+    ],
+    "blurb": "Reads the passport before the price tag. Only rewards brands that publish one."
+  },
+  {
+    "id": "loyalist",
+    "label": "Brand Loyalist",
+    "weights": {
+      "price": 0.6,
+      "style": 1,
+      "eco": 0.3
+    },
+    "budget": {
+      "floor": 45,
+      "ceiling": 210
+    },
+    "incomePerDay": 68,
+    "wearOutMultiplier": 1.1,
+    "shopInterest": 0.5,
+    "boredom": 0.2,
+    "disposal": {
+      "resell": 0.3,
+      "donate": 0.35,
+      "bin": 0.35
+    },
+    "styleTags": [
+      "heritage",
+      "classic",
+      "tailored",
+      "warm"
+    ],
+    "blurb": "Sticks to one house and pays for the badge. Rarely shops anywhere else."
+  },
+  {
+    "id": "minimalist",
+    "label": "Minimalist",
+    "weights": {
+      "price": 0.9,
+      "style": 0.5,
+      "eco": 0.9
+    },
+    "budget": {
+      "floor": 50,
+      "ceiling": 160
+    },
+    "incomePerDay": 47,
+    "wearOutMultiplier": 1.8,
+    "shopInterest": 0.15,
+    "boredom": 0.02,
+    "disposal": {
+      "resell": 0.4,
+      "donate": 0.5,
+      "bin": 0.1
+    },
+    "styleTags": [
+      "minimal",
+      "clean",
+      "classic",
+      "durable"
+    ],
+    "blurb": "Owns few things and wears them to the end. Almost never enters a shop."
+  }
+]
