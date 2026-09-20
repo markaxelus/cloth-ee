@@ -1,0 +1,870 @@
+[
+  {
+    "id": "cloud-tee",
+    "title": "The cloud tee",
+    "vendor": "Cloud Club",
+    "category": "shirt",
+    "colorHex": "#b9a4dd",
+    "description": "An easy everyday shape, with a little room to move.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/cloud-tee.svg",
+    "overlayUrl": "/assets/garments/cloud-tee.svg",
+    "overlayPngUrl": "/assets/garments/cloud-tee.png",
+    "variants": [
+      {
+        "id": "cloud-tee-XS",
+        "title": "Lilac / XS",
+        "size": "XS",
+        "color": "Lilac",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cloud-tee-S",
+        "title": "Lilac / S",
+        "size": "S",
+        "color": "Lilac",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cloud-tee-M",
+        "title": "Lilac / M",
+        "size": "M",
+        "color": "Lilac",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cloud-tee-L",
+        "title": "Lilac / L",
+        "size": "L",
+        "color": "Lilac",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cloud-tee-XL",
+        "title": "Lilac / XL",
+        "size": "XL",
+        "color": "Lilac",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Cotton",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: fibre sourcing location not established.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 7.2,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  },
+  {
+    "id": "oat-shirt",
+    "title": "Sunday linen",
+    "vendor": "Slow Sunday",
+    "category": "shirt",
+    "colorHex": "#ddd2b8",
+    "description": "A breezy layer for slow mornings and warm afternoons.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/oat-shirt.svg",
+    "overlayUrl": "/assets/garments/oat-shirt.svg",
+    "overlayPngUrl": "/assets/garments/oat-shirt.png",
+    "variants": [
+      {
+        "id": "oat-shirt-XS",
+        "title": "Oat / XS",
+        "size": "XS",
+        "color": "Oat",
+        "price": 76,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "oat-shirt-S",
+        "title": "Oat / S",
+        "size": "S",
+        "color": "Oat",
+        "price": 76,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "oat-shirt-M",
+        "title": "Oat / M",
+        "size": "M",
+        "color": "Oat",
+        "price": 76,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "oat-shirt-L",
+        "title": "Oat / L",
+        "size": "L",
+        "color": "Oat",
+        "price": 76,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "oat-shirt-XL",
+        "title": "Oat / XL",
+        "size": "XL",
+        "color": "Oat",
+        "price": 76,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Linen",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: flax grown in France.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 6.4,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  },
+  {
+    "id": "peach-tee",
+    "title": "Peach, please",
+    "vendor": "Cloud Club",
+    "category": "shirt",
+    "colorHex": "#efb9a3",
+    "description": "A soft pop of colour for your everyday rotation.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/peach-tee.svg",
+    "overlayUrl": "/assets/garments/peach-tee.svg",
+    "overlayPngUrl": "/assets/garments/peach-tee.png",
+    "variants": [
+      {
+        "id": "peach-tee-XS",
+        "title": "Peach / XS",
+        "size": "XS",
+        "color": "Peach",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "peach-tee-S",
+        "title": "Peach / S",
+        "size": "S",
+        "color": "Peach",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "peach-tee-M",
+        "title": "Peach / M",
+        "size": "M",
+        "color": "Peach",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "peach-tee-L",
+        "title": "Peach / L",
+        "size": "L",
+        "color": "Peach",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "peach-tee-XL",
+        "title": "Peach / XL",
+        "size": "XL",
+        "color": "Peach",
+        "price": 48,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Cotton",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: fibre sourcing location not established.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 7.2,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  },
+  {
+    "id": "moss-pants",
+    "title": "The day-off pant",
+    "vendor": "Slow Sunday",
+    "category": "pants",
+    "colorHex": "#879981",
+    "description": "Relaxed lines, roomy pockets and a go-anywhere colour.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/moss-pants.svg",
+    "overlayUrl": "/assets/garments/moss-pants.svg",
+    "overlayPngUrl": "/assets/garments/moss-pants.png",
+    "variants": [
+      {
+        "id": "moss-pants-XS",
+        "title": "Moss / XS",
+        "size": "XS",
+        "color": "Moss",
+        "price": 92,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "moss-pants-S",
+        "title": "Moss / S",
+        "size": "S",
+        "color": "Moss",
+        "price": 92,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "moss-pants-M",
+        "title": "Moss / M",
+        "size": "M",
+        "color": "Moss",
+        "price": 92,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "moss-pants-L",
+        "title": "Moss / L",
+        "size": "L",
+        "color": "Moss",
+        "price": 92,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "moss-pants-XL",
+        "title": "Moss / XL",
+        "size": "XL",
+        "color": "Moss",
+        "price": 92,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Cotton",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: fibre sourcing location not established.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 12.8,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  },
+  {
+    "id": "cream-pants",
+    "title": "Wide awake",
+    "vendor": "Cloud Club",
+    "category": "pants",
+    "colorHex": "#d8cbb3",
+    "description": "An airy wide-leg silhouette to dress up or down.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/cream-pants.svg",
+    "overlayUrl": "/assets/garments/cream-pants.svg",
+    "overlayPngUrl": "/assets/garments/cream-pants.png",
+    "variants": [
+      {
+        "id": "cream-pants-XS",
+        "title": "Sand / XS",
+        "size": "XS",
+        "color": "Sand",
+        "price": 98,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cream-pants-S",
+        "title": "Sand / S",
+        "size": "S",
+        "color": "Sand",
+        "price": 98,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cream-pants-M",
+        "title": "Sand / M",
+        "size": "M",
+        "color": "Sand",
+        "price": 98,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cream-pants-L",
+        "title": "Sand / L",
+        "size": "L",
+        "color": "Sand",
+        "price": 98,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "cream-pants-XL",
+        "title": "Sand / XL",
+        "size": "XL",
+        "color": "Sand",
+        "price": 98,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Linen",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: flax grown in France.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 10.6,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  },
+  {
+    "id": "bucket-hat",
+    "title": "A little shade",
+    "vendor": "Daydream Supply",
+    "category": "hat",
+    "colorHex": "#adbea0",
+    "description": "Your sunny-day plus one.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/bucket-hat.svg",
+    "overlayUrl": "/assets/garments/bucket-hat.svg",
+    "overlayPngUrl": "/assets/garments/bucket-hat.png",
+    "variants": [
+      {
+        "id": "bucket-hat-One size",
+        "title": "Sage / One size",
+        "size": "One size",
+        "color": "Sage",
+        "price": 32,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Cotton",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: fibre sourcing location not established.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 2.1,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  },
+  {
+    "id": "sun-glasses",
+    "title": "Rose-tinted",
+    "vendor": "Daydream Supply",
+    "category": "glasses",
+    "colorHex": "#c795ab",
+    "description": "A playful frame preview. No UV rating is claimed.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/sun-glasses.svg",
+    "overlayUrl": "/assets/garments/sun-glasses.svg",
+    "overlayPngUrl": "/assets/garments/sun-glasses.png",
+    "variants": [
+      {
+        "id": "sun-glasses-One size",
+        "title": "Rose / One size",
+        "size": "One size",
+        "color": "Rose",
+        "price": 58,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: fibre sourcing location not established.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": null
+    }
+  },
+  {
+    "id": "wool-scarf",
+    "title": "Warm company",
+    "vendor": "Slow Sunday",
+    "category": "scarf",
+    "colorHex": "#d8afc5",
+    "description": "A cosy colour accent for cooler days.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/wool-scarf.svg",
+    "overlayUrl": "/assets/garments/wool-scarf.svg",
+    "overlayPngUrl": "/assets/garments/wool-scarf.png",
+    "variants": [
+      {
+        "id": "wool-scarf-One size",
+        "title": "Blush / One size",
+        "size": "One size",
+        "color": "Blush",
+        "price": 64,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Wool",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: wool sourced in New Zealand.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 9.8,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  },
+  {
+    "id": "daily-shoes",
+    "title": "Everyday clouds",
+    "vendor": "Daydream Supply",
+    "category": "shoes",
+    "colorHex": "#a5bcb5",
+    "description": "A simple sneaker silhouette for the camera fitting room.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/daily-shoes.svg",
+    "overlayUrl": "/assets/garments/daily-shoes.svg",
+    "overlayPngUrl": "/assets/garments/daily-shoes.png",
+    "variants": [
+      {
+        "id": "daily-shoes-40",
+        "title": "Mint / 40",
+        "size": "40",
+        "color": "Mint",
+        "price": 110,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "daily-shoes-41",
+        "title": "Mint / 41",
+        "size": "41",
+        "color": "Mint",
+        "price": 110,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "daily-shoes-42",
+        "title": "Mint / 42",
+        "size": "42",
+        "color": "Mint",
+        "price": 110,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "daily-shoes-43",
+        "title": "Mint / 43",
+        "size": "43",
+        "color": "Mint",
+        "price": 110,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "daily-shoes-44",
+        "title": "Mint / 44",
+        "size": "44",
+        "color": "Mint",
+        "price": 110,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: fibre sourcing location not established.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": null
+    }
+  },
+  {
+    "id": "run-tee",
+    "title": "Ready, set, go",
+    "vendor": "Cloud Club",
+    "category": "shirt",
+    "colorHex": "#92bcc0",
+    "description": "A quick-drying fabric concept for a more active day.",
+    "source": "demo",
+    "imageUrl": "/assets/garments/run-tee.svg",
+    "overlayUrl": "/assets/garments/run-tee.svg",
+    "overlayPngUrl": "/assets/garments/run-tee.png",
+    "variants": [
+      {
+        "id": "run-tee-XS",
+        "title": "Seafoam / XS",
+        "size": "XS",
+        "color": "Seafoam",
+        "price": 54,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "run-tee-S",
+        "title": "Seafoam / S",
+        "size": "S",
+        "color": "Seafoam",
+        "price": 54,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "run-tee-M",
+        "title": "Seafoam / M",
+        "size": "M",
+        "color": "Seafoam",
+        "price": 54,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "run-tee-L",
+        "title": "Seafoam / L",
+        "size": "L",
+        "color": "Seafoam",
+        "price": 54,
+        "currency": "CAD",
+        "available": true
+      },
+      {
+        "id": "run-tee-XL",
+        "title": "Seafoam / XL",
+        "size": "XL",
+        "color": "Seafoam",
+        "price": 54,
+        "currency": "CAD",
+        "available": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Polyester",
+        "percent": 100
+      }
+    ],
+    "materialsStatus": "demo",
+    "passport": {
+      "sourcing": {
+        "value": "Illustrative route: fibre sourcing location not established.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "manufacturing": {
+        "value": "Illustrative route: fabric processing and garment assembly in Portugal.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "wages": {
+        "value": "Not disclosed",
+        "status": "unknown",
+        "url": null,
+        "date": null
+      },
+      "ethics": {
+        "value": "Fictional brand. No audit, certification or ethical rating is claimed.",
+        "status": "demo",
+        "url": null,
+        "date": null
+      },
+      "carbon": {
+        "kgCO2e": 5.8,
+        "boundary": "Illustrative cradle-to-delivery fixture; excludes use, returns and end of life.",
+        "method": "Made-up demo value for testing the interface. Not an LCA.",
+        "url": null,
+        "date": null,
+        "status": "demo"
+      }
+    }
+  }
+]

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cloth-ee PoC</title>
+<style>
+:root{--lilac:#B9A4DD;--peach:#FFC9B5;--mint:#BDE8D3;--butter:#FFE9A8;--ink:#3B2F55;--cream:#FFF9F3;--coral:#FF8E7A;--amber:#FFC46B}
+*{box-sizing:border-box}body{margin:0;font:16px/1.4 ui-rounded,"Nunito",system-ui,sans-serif;color:var(--ink);background:radial-gradient(circle at 15% 10%,var(--peach),transparent 40%),radial-gradient(circle at 90% 90%,var(--mint),transparent 45%),var(--cream);height:100vh;overflow:hidden}
+main{display:grid;grid-template-columns:22% 1fr 30%;gap:16px;padding:16px;height:100vh}
+.panel{background:#fffc;border-radius:28px;box-shadow:0 8px 24px #3b2f5522,0 2px 4px #3b2f5511;padding:16px;overflow:auto}
+h1{font-size:22px;margin:0 0 12px}h2{font-size:20px;margin:0}small{opacity:.65}
+.card{display:flex;align-items:center;gap:10px;padding:8px;border-radius:20px;cursor:pointer;transition:.25s cubic-bezier(.3,1.6,.5,1);margin-bottom:8px;background:#fff}
+.card img{width:52px;height:52px;object-fit:contain}.card.on{transform:scale(1.06);background:var(--butter)}
+.dot{width:10px;height:10px;border-radius:50%;margin-left:auto;flex:none}
+#mirror{position:relative;padding:0;overflow:hidden;background:#2a2140}
+#mirror video{width:100%;height:100%;object-fit:cover;transform:scaleX(-1)}
+#garment{position:absolute;left:50%;transform:translateX(-50%);transition:.3s cubic-bezier(.3,1.6,.5,1);filter:drop-shadow(0 6px 10px #0005)}
+#garment.pop{transform:translateX(-50%) scale(1.12)}
+#orb{position:absolute;bottom:18px;left:50%;translate:-50% 0;width:64px;height:64px;border-radius:50%;border:0;font-size:26px;cursor:pointer;background:radial-gradient(circle at 30% 30%,#fff,var(--lilac));box-shadow:0 6px 18px #0006}
+#orb.live{animation:pulse 1s infinite}@keyframes pulse{50%{scale:1.15}}
+#cap{position:absolute;bottom:92px;left:0;right:0;text-align:center;color:#fff;text-shadow:0 2px 6px #000;padding:0 20px}
+.gauge{height:18px;border-radius:9px;background:linear-gradient(90deg,var(--mint),var(--amber),var(--coral));position:relative;margin:8px 0 4px}
+.gauge i{position:absolute;top:-5px;width:6px;height:28px;border-radius:3px;background:var(--ink);transition:left .6s}
+.chip{display:inline-block;padding:2px 10px;border-radius:99px;font-size:12px;background:var(--lilac);color:#fff;margin:2px 4px 2px 0}
+.claim{background:#fff;border-radius:16px;padding:10px;margin:8px 0;font-size:14px}
+button.buy{width:100%;padding:14px;border:0;border-radius:99px;background:var(--ink);color:#fff;font:inherit;font-weight:700;margin-top:10px;cursor:pointer}
+</style></head><body><main>
+<section class="panel"><h1>🫧 Rack</h1><div id="rack"></div></section>
+<section class="panel" id="mirror"><video autoplay playsinline muted></video><img id="garment" alt=""><div id="cap">← → or swipe · tap the orb and say “next” or “is this sustainable?”</div><button id="orb">🎙</button></section>
+<section class="panel" id="story"></section>
+</main><script type="module">
+const {products}=await (await fetch('/api/catalog')).json();
+// PoC fixtures only: stands in for the investigator + auditor pipeline in plan.md §6.4–6.5.
+const FIX=[{q:'“Made with eco-friendly materials”',s:'unsupported',m:'metric, third-party verification'},{q:'“30% lower emissions”',s:'insufficient evidence',m:'baseline, timeframe, scope'},{q:'“Certified organic cotton”',s:'supported',m:'—'}];
+const risk=p=>[...p.id].reduce((a,c)=>a+c.charCodeAt(0),0)%90+5;
+const band=r=>r<34?['low','var(--mint)']:r<67?['medium','var(--amber)']:['high','var(--coral)'];
+const POS={shirt:[30,46],pants:[55,36],hat:[4,22],glasses:[17,16],scarf:[27,26],shoes:[84,30]};
+const $=s=>document.querySelector(s);let i=0;
+function render(){const p=products[i],r=risk(p),[b,c]=band(r),v=p.variants.find(v=>v.available)||p.variants[0];
+  $('#rack').innerHTML=products.map((x,n)=>`<div class="card ${n===i?'on':''}" data-n="${n}"><img src="${x.imageUrl}"><div><b>${x.title}</b><br><small>${x.vendor}</small></div><span class="dot" style="background:${band(risk(x))[1]}"></span></div>`).join('');
+  const g=$('#garment'),[top,w]=POS[p.category]||POS.shirt;g.src=p.overlayUrl;g.style.top=top+'%';g.style.width=w+'%';g.classList.add('pop');setTimeout(()=>g.classList.remove('pop'),200);
+  $('#story').innerHTML=`<h2>${p.title}</h2><small>${p.vendor} · ${v.currency} ${v.price}</small><p>${p.description}</p>
+  <div>${p.materials.map(m=>`<span class="chip">${m.percent}% ${m.name}</span>`).join('')}</div>
+  <h3>Claim risk: ${r}/100 <span class="chip" style="background:${c};color:var(--ink)">${b}</span></h3><div class="gauge"><i style="left:${r}%"></i></div><small>demo fixture — not a real audit</small>
+  ${FIX.map(f=>`<div class="claim">${f.q}<br><span class="chip">${f.s}</span> <small>missing: ${f.m}</small></div>`).join('')}
+  <p><b>Made:</b> ${p.passport.manufacturing.value}<br><b>Wages:</b> ${p.passport.wages.value}</p><button class="buy">Add to bag</button>`;
+  document.querySelector('.card.on')?.scrollIntoView({block:'nearest',behavior:'smooth'});}
+const go=d=>{i=(i+d+products.length)%products.length;render();};
+$('#rack').onclick=e=>{const c=e.target.closest('.card');if(c){i=+c.dataset.n;render();}};
+addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowDown')go(1);if(e.key==='ArrowLeft'||e.key==='ArrowUp')go(-1);});
+let sx;$('#mirror').addEventListener('pointerdown',e=>sx=e.clientX);$('#mirror').addEventListener('pointerup',e=>{const d=e.clientX-sx;if(Math.abs(d)>60)go(d<0?1:-1);});
+const say=t=>{$('#cap').textContent=t;speechSynthesis.cancel();speechSynthesis.speak(new SpeechSynthesisUtterance(t));};
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+$('#orb').onclick=()=>{if(!SR)return say('Voice needs Chrome for this PoC.');speechSynthesis.cancel();const r=new SR();$('#orb').classList.add('live');r.onend=()=>$('#orb').classList.remove('live');
+  r.onresult=e=>{const t=e.results[0][0].transcript.toLowerCase(),p=products[i],k=risk(p);
+    if(/next|another/.test(t)){go(1);say('Ooh, next one!');}else if(/back|previous/.test(t)){go(-1);say('Back we go.');}
+    else if(/sustain|eco|green|ethic/.test(t))say(`${p.vendor} scores ${k} out of 100 for claim risk, that's ${band(k)[0]}. Two of three claims lack a baseline or third-party verification.`);
+    else say(`I heard: ${t}`);};r.start();};
+navigator.mediaDevices?.getUserMedia({video:true}).then(s=>$('video').srcObject=s).catch(()=>$('#cap').textContent='Camera blocked — overlay still works.');
+render();
+</script></body></html>

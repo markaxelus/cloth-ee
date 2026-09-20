@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f5ef"><title>Cloth-ee · Wear the story</title><link rel="icon" href="/assets/logo.svg"><link rel="stylesheet" href="/style.css"></head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Cloth-ee home"><img src="/assets/logo.svg" alt=""><span>cloth-ee<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Main navigation"><button class="nav active" data-page="studio">Fitting room</button><button class="nav" data-page="wardrobe">My wardrobe <span id="saved-count">0</span></button><button class="nav" data-page="materials">Material notes</button></nav>
+    <div class="header-actions"><span id="connection" class="pill"><i></i> Connecting</span><button id="pair-open" class="round-button" title="Pair a controller" aria-label="Pair a controller">↗</button><button id="profile-open" class="avatar" aria-label="Edit your profile">you</button></div>
+  </header>
+  <main>
+    <div class="intro"><div><p class="eyebrow"><span class="spark">✳</span> LOOK GOOD. KNOW MORE.</p><h1>Your style. <span>A little more story.</span></h1><p class="subtitle">Try a new look. Get to know what you're wearing.</p></div><div class="intro-note"><span class="tiny-star">✦</span><span>A softer way<br>to shop.</span></div></div>
+    <div id="mode-banner" class="mode-banner">Sample collection · Fictional brands and illustrative impact data</div>
+    <section id="studio-page" class="workspace" aria-label="Fitting room">
+      <aside class="rail panel"><div class="section-heading"><div><p class="eyebrow">THE CLOTHING RAIL</p><h2>Find your next favourite</h2></div><span class="mini-flower">✳</span></div>
+        <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Find an item or brand" aria-label="Search clothes"></label>
+        <div id="categories" class="chips" aria-label="Clothing categories"></div>
+        <div id="product-list" class="product-list"></div>
+        <div class="rail-footer"><span>♡</span><p>Love it? Keep it.<br><small>Save pieces to your wardrobe.</small></p></div>
+      </aside>
+      <section class="fitting panel" aria-label="Clothing preview">
+        <div class="fitting-toolbar"><span class="pill light" id="preview-status">✦ Style preview</span><div class="view-switch"><button id="studio-mode" class="active">Studio</button><button id="camera-mode">Camera</button></div></div>
+        <div id="stage" class="stage"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="stage-word">hello,<br>new favourite.</div>
+          <div id="mannequin"><img class="person" src="/assets/person.svg" alt="Illustrated mannequin"><img id="studio-garment" class="studio-garment" alt="Selected clothing preview"></div>
+          <div id="camera-view" hidden><div id="video-plane"><video id="camera-video" autoplay playsinline muted></video><img id="camera-garment" alt="2D clothing overlay" hidden></div></div>
+          <span class="floating-note" id="floating-note">a little cloud energy <span>☁</span></span>
+          <button id="favorite" class="favorite-bubble" aria-label="Save this item" aria-pressed="false">♡</button>
+          <button id="previous" class="arrow arrow-left" aria-label="Previous garment">←</button><button id="next" class="arrow arrow-right" aria-label="Next garment">→</button>
+        </div>
+        <div class="selected-label"><p id="selected-brand" class="eyebrow"></p><h2 id="selected-title"></h2><p id="fit-disclaimer">Illustrative 2D preview · Not a size prediction</p></div>
+        <div class="fitting-bottom"><button id="align-open" class="text-button">⌖ Adjust alignment</button><span>← swipe to explore →</span><button id="scan-open" class="text-button">▣ Scan a tag</button></div>
+        <div id="camera-options" class="camera-options" hidden><button id="switch-camera" class="camera-switch">↻ Switch camera</button><span id="camera-label">Selfie camera</span><label><input type="checkbox" id="mirror-camera" checked><span id="mirror-label">Mirror selfie</span></label><label><input type="checkbox" id="share-frames"> Share camera view with paired Unity display</label><button id="stop-camera" class="text-button">Stop camera</button></div>
+      </section>
+      <aside class="passport panel"><div class="section-heading"><div><p class="eyebrow">BEHIND THE LABEL</p><h2>Every piece has a story.</h2></div><span class="passport-icon">↗</span></div>
+        <div id="product-price" class="price"></div><p id="product-description" class="description"></p>
+        <label class="field-label" for="variant">CHOOSE YOUR VARIANT</label><select id="variant"></select>
+        <div class="palette-row"><span>YOUR PALETTE</span><div id="palette-swatches"></div></div>
+        <div class="tabs" role="tablist" aria-label="Product information"><button class="active" data-tab="details" role="tab" aria-selected="true">Material</button><button data-tab="story" role="tab" aria-selected="false">Story</button><button data-tab="impact" role="tab" aria-selected="false">Impact</button></div>
+        <div id="passport-content" class="passport-content" aria-live="polite"></div>
+        <button id="checkout" class="primary">Shop this piece <span>↗</span></button><p class="checkout-note" id="checkout-note">Sample item · No purchase is made</p>
+      </aside>
+    </section>
+    <section id="wardrobe-page" class="panel secondary-page" hidden><p class="eyebrow">GOOD THINGS, ON REPEAT</p><h2>Your little wardrobe</h2><p>Keep the pieces you love. Log a wear when you actually wear one.</p><div id="wardrobe-list" class="wardrobe-grid"></div></section>
+    <section id="materials-page" class="panel secondary-page" hidden><p class="eyebrow">A LITTLE FABRIC KNOW-HOW</p><h2>Meet your materials</h2><p>Weave, weight, finishing and care matter too. A fibre alone does not define an item's impact.</p><div id="material-list" class="material-grid"></div></section>
+    <section class="assistant-panel" aria-label="Styling assistant"><div class="assistant-avatar">✳</div><div class="assistant-body"><div class="assistant-title"><strong>A little help from your stylist</strong><span id="assistant-mode" class="small-pill">Offline demo</span></div><p id="assistant-answer" aria-live="polite">“Something breezy for a warm day?” Let's find your kind of comfortable.</p><div id="assistant-result"></div><div class="ask-row"><input id="question" placeholder="Ask about a look, a label, or a material…" aria-label="Ask the stylist" maxlength="2000"><button id="attach-open" class="round-button" aria-label="Attach a label or outfit photo">＋</button><button id="voice" class="voice-button" aria-label="Record a spoken question">◉ <span>Talk</span></button><button id="ask" class="send-button" aria-label="Send question">↗</button></div><div id="attachment-row" hidden><img id="attachment-preview" alt="Attached photo"><span>Photo attached · Sent only when you ask</span><button id="remove-attachment" class="text-button">Remove</button></div><p class="media-note" id="media-note">Use a photo + spoken question together for the live OMNI experience.</p></div></section>
+    <footer><span>cloth-ee. <span class="muted">Wear the story.</span></span><span>Your usual size is a starting point. Check the brand's size chart.</span><button id="end-session" class="text-button">Clear session</button></footer>
+  </main>
+  <input type="file" id="photo-input" accept="image/jpeg,image/png" capture="environment" hidden>
+  <dialog id="profile-dialog"><form id="profile-form"><div class="dialog-top"><h2>A little about you</h2><button type="button" data-close="profile-dialog" class="round-button" aria-label="Close profile">×</button></div><p>Save your usual sizes and choose a palette you enjoy.</p><label>Height (cm)<input name="heightCm" type="number" min="100" max="230" required></label><div class="form-row"><label>Top size<input name="topSize" maxlength="16" required></label><label>Bottom size<input name="bottomSize" maxlength="16" required></label><label>Shoe size<input name="shoeSize" maxlength="16" required></label></div><label>Colour mood<select name="palette"><option value="soft">Soft & dreamy</option><option value="earth">Earth & easy</option><option value="bold">Bright & playful</option></select></label><p class="media-note">Height is not used to infer body measurements. This profile belongs to your paired session.</p><button class="primary" type="submit">Make it mine</button></form></dialog>
+  <dialog id="pair-dialog"><div class="dialog-top"><h2>Bring your devices together</h2><button data-close="pair-dialog" class="round-button" aria-label="Close pairing">×</button></div><p>On the Beam controller or Unity client, enter this computer's server address and session ID.</p><label>Server address<input id="server-address" readonly></label><label>Session ID<input id="pair-code" readonly></label><button id="copy-pair" class="primary">Copy session ID</button><p class="media-note">The session ID grants access to this fitting room. Share it only with your devices. On another device, replace localhost with your computer's LAN IP. Camera access in a mobile browser requires HTTPS.</p></dialog>
+  <dialog id="align-dialog"><div class="dialog-top"><h2>Make a little adjustment</h2><button data-close="align-dialog" class="round-button" aria-label="Close alignment">×</button></div><p>For a visual preview only. Alignment does not establish fit.</p><label>Move left / right<input type="range" id="fit-x" min="-0.5" max="0.5" step="0.01"></label><label>Move up / down<input type="range" id="fit-y" min="-0.5" max="0.5" step="0.01"></label><label>Scale<input type="range" id="fit-scale" min="0.3" max="2.5" step="0.01"></label><label>Rotation<input type="range" id="fit-rotation" min="-90" max="90" step="1"></label><button id="reset-fit" class="primary">Reset alignment</button></dialog>
+  <div id="toast" role="status" hidden></div>
+  <script type="module" src="/app.js"></script>
+</body></html>
