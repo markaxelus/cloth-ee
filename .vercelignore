@@ -1,0 +1,13 @@
+.playwright-mcp
+artifacts
+docs
+mobile
+scripts
+tests
+unity
+node_modules
+public/vendor
+organic-town-after.png
+organic-town-selected.png
+plan.md
+plan-town.md
