@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#FFF9F3">
+<title>Cloth-ee · The cost of influence</title>
+<link rel="icon" href="/assets/logo.svg">
+<link rel="stylesheet" href="/css/town.css">
+</head>
+<body>
+<div class="town">
+
+  <aside class="panel street" aria-label="Street controls">
+    <div class="panel-head">
+      <p class="eyebrow">Cloth-ee simulation</p>
+      <h1>What makes us buy—and bin?</h1>
+      <p class="sub" id="town-status">Waking the town up…</p>
+    </div>
+
+    <div class="clock">
+      <div><span class="big" id="clock-day">Day 0</span><span class="phase" id="clock-phase">night</span></div>
+      <div class="dial"><i id="clock-hand"></i></div>
+    </div>
+
+    <div class="speeds" id="speed" role="group" aria-label="Simulation speed">
+      <button class="speed" data-speed="0" aria-pressed="false">Pause</button>
+      <button class="speed is-on" data-speed="1" aria-pressed="true">1×</button>
+      <button class="speed" data-speed="10" aria-pressed="false">10×</button>
+    </div>
+
+    <section class="experiment" aria-labelledby="experiment-title">
+      <p class="eyebrow">Run a controlled experiment</p>
+      <h2 id="experiment-title">Does product evidence change behavior?</h2>
+      <p class="experiment-copy">We run the same synthetic town twice. The only change is publishing one brand’s clothing passport.</p>
+      <label class="field">Brand
+        <select id="experiment-brand"></select>
+      </label>
+      <button class="run-experiment" id="run-experiment" type="button">Compare 14 simulated days</button>
+      <p class="experiment-status" id="experiment-status">Same residents. Same seed. One changed signal.</p>
+      <div class="experiment-result" id="experiment-result" hidden></div>
+    </section>
+
+    <section class="block">
+      <p class="eyebrow">Cost of influence</p>
+      <div class="meters">
+        <div class="meter"><span class="label">Copy-buys</span><span class="value" id="toll-buys">0</span></div>
+        <div class="meter"><span class="label">Dumped early</span><span class="value" id="toll-dumped">0</span></div>
+        <div class="meter"><span class="label">Wasted</span><span class="value" id="toll-waste">0</span></div>
+      </div>
+      <p class="note" id="toll-note">nobody has posted yet</p>
+    </section>
+
+    <details class="block compact">
+      <summary>Trending now</summary>
+      <div class="ticker" id="ticker"><p class="note">no brand is trending yet</p></div>
+    </details>
+
+    <section class="block" id="worn-block" hidden>
+      <p class="eyebrow">Estimated impact worn now</p>
+      <div class="meters">
+        <div class="meter"><span class="label">CO2e</span><span class="value" id="meter-co2e">—</span></div>
+        <div class="meter"><span class="label">Water</span><span class="value" id="meter-water">—</span></div>
+        <div class="meter"><span class="label">Waste</span><span class="value" id="meter-waste">—</span></div>
+      </div>
+      <p class="note" id="meter-note">factor table not yet sourced</p>
+    </section>
+
+    <details class="block feed-block">
+      <summary>Live decisions
+        <label class="toggle"><input type="checkbox" id="ambient-toggle"><span>ambient</span></label>
+      </summary>
+      <ol class="feed no-ambient" id="feed" aria-live="polite"></ol>
+    </details>
+
+    <details class="block filters">
+      <summary>Filter residents</summary>
+      <p class="eyebrow">Shopper type <button class="reset" id="reset-personas" type="button">all</button></p>
+      <div class="chips" id="persona-chips" aria-label="Filter by persona"></div>
+      <p class="eyebrow">Daily role <button class="reset" id="reset-roles" type="button">all</button></p>
+      <div class="chips" id="role-chips" aria-label="Filter by role"></div>
+    </details>
+  </aside>
+
+  <main class="board-wrap">
+    <canvas id="board" aria-label="Town board. Click a resident to inspect them."></canvas>
+    <div class="board-head" aria-hidden="true">
+      <div class="place-card">
+        <span class="place-kicker">Cloth-ee County</span>
+        <strong>Ridgeway</strong>
+        <span class="live-dot">Live neighborhood</span>
+      </div>
+      <div class="map-key">
+        <span><i class="key-person"></i>Residents</span>
+        <span><i class="key-shop"></i>High Street</span>
+        <span><i class="key-park"></i>Town park</span>
+      </div>
+    </div>
+    <div class="board-bar">
+      <span class="hint"><b>Explore the town</b> · drag to pan · scroll to zoom · select a resident</span>
+      <span class="zooms"><button id="zoom-out" aria-label="Zoom out">−</button><button id="zoom-reset">fit</button><button id="zoom-in" aria-label="Zoom in">+</button></span>
+    </div>
+  </main>
+
+  <aside class="panel story" aria-label="Story panel">
+    <div class="panel-head">
+      <p class="eyebrow">Why it happened</p>
+      <h2 id="story-title">Select a resident</h2>
+    </div>
+
+    <div id="story-empty" class="empty">
+      <div class="empty-art" aria-hidden="true"><i></i><i></i><i></i></div>
+      <p>Select anyone on the board.</p>
+      <p class="note">Trace the signal, decision, purchase, and consequence behind their clothes.</p>
+    </div>
+
+    <div id="story" hidden>
+      <div class="card">
+        <div class="card-top">
+          <div><strong id="story-name">—</strong><span class="tags"><span class="tag" id="story-persona">—</span><span class="tag alt" id="story-role">—</span></span></div>
+          <button class="close" id="story-close" aria-label="Clear selection">×</button>
+        </div>
+        <p class="card-line"><span id="story-activity">—</span></p>
+        <p class="omni-state" id="story-omni-state">OMNI pipeline idle</p>
+        <div class="scan-row">
+          <button class="scan" id="scan-omni" disabled>Scan with OMNI</button>
+          <button class="scan alt" id="scan-talk" disabled>Hold to ask</button>
+        </div>
+        <p class="scan-say" id="scan-say" hidden></p>
+      </div>
+
+      <details class="block compact capture">
+        <summary>What the model sees <span class="note" id="portrait-note">512 px · front</span></summary>
+        <div class="portrait" id="portrait-mount"></div>
+      </details>
+
+      <section class="block">
+        <p class="eyebrow">Signal → decision → consequence</p>
+        <div class="matches" id="wearing"></div>
+        <p class="accuracy" id="accuracy">OMNI read from pixels: —</p>
+        <p class="accuracy live" id="accuracy-live" hidden></p>
+      </section>
+    </div>
+  </aside>
+</div>
+<script type="module" src="/js/town/main.mjs"></script>
+</body>
+</html>
