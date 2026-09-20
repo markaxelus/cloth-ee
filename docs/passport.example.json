@@ -1,0 +1,10 @@
+{
+  "_instruction": "Schema illustration only. Replace every claim and URL with actual product evidence. example.com is a placeholder, not evidence.",
+  "colorHex": "#B9A4DD",
+  "materials": [ { "name": "Cotton", "percent": 100 } ],
+  "sourcing": { "value": "Replace with disclosed fibre source and location", "url": "https://example.com/replace-with-source", "date": "2026-09-19" },
+  "manufacturing": { "value": "Replace with fabric processing, garment assembly and locations", "url": "https://example.com/replace-with-manufacturing-report", "date": "2026-09-19" },
+  "wages": null,
+  "ethics": null,
+  "carbon": null
+}
